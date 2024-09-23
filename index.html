@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="form_container">
+        <div class="form_header">
+          <img src="./logo.png" alt="" />
+
+          <h1>Welcome Back</h1>
+        </div>
+
+        <form action="." class="form_data">
+          <!-- email or username -->
+          <div class="form_input">
+            <label for="email_username">
+              Email or Username <span>*</span>
+            </label>
+            <input
+              type="text"
+              id="email_username"
+              required
+              placeholder="Enter your Email or Username"
+            />
+          </div>
+
+          <!-- password -->
+          <div class="form_input">
+            <label for="password"> Password <span>*</span> </label>
+            <input
+              type="password"
+              id="password"
+              required
+              placeholder="Enter your Password"
+            />
+          </div>
+
+          <div class="form_checkbox">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">Remember me</label>
+          </div>
+
+          <button>Log In</button>
+        </form>
+
+        <div class="form_link">
+          <div class="signup_link">
+            <p>Don’t have an account?</p>
+            <a href="./Signup">Signup</a>
+          </div>
+
+          <a href="./forgotPassword">Forgot password</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #24a689;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container {
+  background-color: white;
+  height: 70%;
+  width: 40%;
+  border-radius: 0.5rem;
+}
+
+.form_header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.form_header > h1 {
+  margin: 0;
+  font-size: 1rem;
+  color: rgb(73 101 137);
+  font-weight: 600;
+}
+
+.form_header > img {
+  /* width: 30px; */
+  height: 30px;
+}
+
+.form_data {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form_input > label {
+  font-size: 0.65rem;
+  color: rgb(119 119 119);
+}
+
+.form_input > label > span {
+  color: red;
+}
+
+.form_input > input {
+  all: unset;
+  background-color: rgb(233 233 233);
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.form_checkbox {
+  display: flex;
+  gap: 0.2rem;
+  font-size: 0.6rem;
+  align-items: center;
+  font-weight: 500;
+  color: #496589;
+}
+
+.form_data > button {
+  all: unset;
+  background-color: #496589;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.form_link {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+}
+
+.signup_link {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.signup_link > a {
+  text-decoration: none;
+  color: #496589;
+  font-weight: 600;
+}
+
+.form_link > a {
+  text-decoration: none;
+  color: #496589;
+  font-weight: 600;
+}
